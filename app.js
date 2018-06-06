@@ -9,8 +9,12 @@ app.get('/', function (req, res) {
 })
 
 
-app.get('/aaa', function (req, res) {
+app.get('/1', function (req, res) {
   res.send('i am aaa')
+})
+
+app.get('/2', function (req, res) {
+  res.send('i am 2')
 })
 
 
